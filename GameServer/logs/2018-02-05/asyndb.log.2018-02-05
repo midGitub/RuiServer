@@ -23,8 +23,6 @@ INFO 2018-02-05 17:57:33.003 [SyncDBMonitor--thread-1] [com.game.framework.async
 INFO 2018-02-05 17:57:33.003 [SyncDBMonitor--thread-1] [com.game.framework.asyncdb.SyncQueuePool:?] - Queue: 22, SyncCount:0, WaitingSize:0, PeriodNum:0
 INFO 2018-02-05 17:57:33.003 [SyncDBMonitor--thread-1] [com.game.framework.asyncdb.SyncQueuePool:?] - Queue: 23, SyncCount:0, WaitingSize:0, PeriodNum:0
 INFO 2018-02-05 17:57:33.003 [SyncDBMonitor--thread-1] [com.game.framework.asyncdb.SyncQueuePool:?] - Queue: 24, SyncCount:0, WaitingSize:0, PeriodNum:0
-INFO 2018-02-05 17:57:33.003 [SyncDBMonitor--thread-1] [com.game.framework.asyncdb.SyncQueuePool:?] - Queue: 25, SyncCount:0, WaitingSize:0, PeriodNum:0
-INFO 2018-02-05 17:57:33.003 [SyncDBMonitor--thread-1] [com.game.framework.asyncdb.SyncQueuePool:?] - Queue: 26, SyncCount:0, WaitingSize:0, PeriodNum:0
 INFO 2018-02-05 17:57:33.003 [SyncDBMonitor--thread-1] [com.game.framework.asyncdb.SyncQueuePool:?] - Queue: 27, SyncCount:0, WaitingSize:0, PeriodNum:0
 INFO 2018-02-05 17:57:33.003 [SyncDBMonitor--thread-1] [com.game.framework.asyncdb.SyncQueuePool:?] - Queue: 28, SyncCount:0, WaitingSize:0, PeriodNum:0
 INFO 2018-02-05 17:57:33.003 [SyncDBMonitor--thread-1] [com.game.framework.asyncdb.SyncQueuePool:?] - Queue: 29, SyncCount:0, WaitingSize:0, PeriodNum:0

@@ -18,6 +18,9 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 import java.util.*;
 
+/**
+* 游戏启动入口
+*/
 @SpringBootApplication
 @EnableJpaRepositories(basePackages = "com.game.logic", repositoryFactoryBeanClass = BaseRepositoryFactoryBean.class)
 @EntityScan(basePackages = "com.game.logic")
