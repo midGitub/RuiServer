@@ -37,7 +37,7 @@ public class GameApplication {
     }
 
     /**
-     * 初始化游戏
+     * 初始化游戏服务器
      */
     private static void initGameServer() {
         Preconditions.checkNotNull(context);

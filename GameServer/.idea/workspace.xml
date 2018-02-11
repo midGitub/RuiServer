@@ -1,7 +1,150 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="d4a0ce26-97d7-41df-8d5f-58404cc74b91" name="Default" comment="" />
+    <list default="true" readonly="true" id="d4a0ce26-97d7-41df-8d5f-58404cc74b91" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_44.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_10.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_10.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_21_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_koloboke_koloboke_api_jdk8_1_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_koloboke_koloboke_impl_common_jdk8_1_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_koloboke_koloboke_impl_jdk8_1_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_c3p0_0_9_5_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_java6_2_3_13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_6_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_websocket_javax_websocket_api_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_45.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_dbcp2_2_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_jexl_2_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_9.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_27.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_27.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_27.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_8_5_27.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_5_27.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_27.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_2_6_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_all_2_4_13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_annotations_9_4_8_v20171121.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_client_9_4_8_v20171121.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_continuation_9_4_8_v20171121.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_4_8_v20171121.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_4_8_v20171121.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_plus_9_4_8_v20171121.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_9_4_8_v20171121.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_4_8_v20171121.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_9_4_8_v20171121.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlets_9_4_8_v20171121.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_4_8_v20171121.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_webapp_9_4_8_v20171121.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_xml_9_4_8_v20171121.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_javax_websocket_client_impl_9_4_8_v20171121.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_javax_websocket_server_impl_9_4_8_v20171121.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_api_9_4_8_v20171121.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_client_9_4_8_v20171121.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_common_9_4_8_v20171121.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_server_9_4_8_v20171121.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_servlet_9_4_8_v20171121.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_2_12_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_5_0_12_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_6_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_3_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_1_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_0_1_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jasper_apache_el_8_0_33.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mvel_mvel2_2_1_9_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_6_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_commons_6_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_tree_6_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_2_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_25.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_10_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_10_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_1_5_10_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_10_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_1_5_10_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_1_5_10_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_5_10_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jetty_1_5_10_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_10_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_10_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_10_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_10_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_10_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_10_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_13_10_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_1_11_10_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_14_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_3_14_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_14_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_14_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_14_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_14_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_14_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_3_14_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_14_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_14_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_14_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_14_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/SpringbootJpaApplicationTests.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-SpringbootJpaApplicationTests.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/game/GameApplication$1.class" afterPath="$PROJECT_DIR$/target/classes/com/game/GameApplication$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/game/GameApplication$2.class" afterPath="$PROJECT_DIR$/target/classes/com/game/GameApplication$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/game/GameApplication.class" afterPath="$PROJECT_DIR$/target/classes/com/game/GameApplication.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.gitignore" afterPath="$PROJECT_DIR$/../.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GameServer.iml" afterPath="$PROJECT_DIR$/GameServer.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2018-02-11/exception.log.2018-02-11" afterPath="$PROJECT_DIR$/logs/2018-02-11/exception.log.2018-02-11" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/game/GameApplication.java" afterPath="$PROJECT_DIR$/src/main/java/com/game/GameApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,25 +167,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AsynDBState.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/game/framework/asyncdb/AsynDBState.java">
+      <file leaf-file-name="GameApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/game/GameApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="820">
-              <caret line="45" column="17" lean-forward="true" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
-              <folding />
+            <state relative-caret-position="0">
+              <caret line="48" column="16" lean-forward="false" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SyncException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/game/framework/asyncdb/SyncException.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding>
-                <element signature="e#275#276#0" expanded="true" />
-                <element signature="e#312#313#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="260">
+              <caret line="86" column="20" lean-forward="true" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -58,8 +200,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>javax.management</find>
-      <find>type=Admin,name=SpringApplication</find>
       <find>Admin</find>
       <find>ServletRegistrationBean</find>
       <find>connectionProperties</find>
@@ -88,6 +228,8 @@
       <find>asyndb</find>
       <find>exceptionAsyncAppender</find>
       <find>wrapType</find>
+      <find>mchange-commons</find>
+      <find>mchange</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -142,8 +284,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/game/logic/article/service/impl/ArticleServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/game/logic/init/InitSQLData.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/game/logic/commdata/dao/PlayerCommDataDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/game/GameApplication.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/game/framework/time/impl/TriggerTaskExecutor.java" />
         <option value="$PROJECT_DIR$/.idea/vcs.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/game/framework/asyncdb/AsynDBEntity.java" />
@@ -154,6 +294,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/game/framework/asyncdb/SyncQueuePool.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/game/framework/asyncdb/SyncStats.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/game/framework/asyncdb/AsynDBState.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/game/GameApplication.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -183,6 +325,16 @@
           <item name="GameServer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="GameServer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="GameServer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
       </expand>
       <select />
     </treeState>
@@ -190,9 +342,8 @@
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="27" />
-    <option name="y" value="170" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="27" />
     <option name="width" value="1440" />
     <option name="height" value="786" />
   </component>
@@ -234,6 +385,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -262,70 +416,21 @@
             <path>
               <item name="GameServer" type="b2602c69:ProjectViewProjectNode" />
               <item name="GameServer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GameServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GameServer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="game" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GameServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GameServer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="game" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="asyncdb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GameServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GameServer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="game" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="time" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GameServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GameServer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="game" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="time" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GameServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GameServer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -601,6 +706,11 @@
       <workItem from="1518271245268" duration="141000" />
       <workItem from="1518271409789" duration="2258000" />
       <workItem from="1518277498198" duration="6317000" />
+      <workItem from="1518325225561" duration="3005000" />
+      <workItem from="1518340162258" duration="31000" />
+      <workItem from="1518340214975" duration="95000" />
+      <workItem from="1518340341078" duration="188000" />
+      <workItem from="1518340571573" duration="1202000" />
     </task>
     <servers />
   </component>
@@ -637,7 +747,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147085000" />
+    <option name="totallyTimeSpent" value="151606000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -649,33 +759,34 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="786" extended-state="6" />
+    <frame x="0" y="27" width="1440" height="786" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944608" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850942" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3265306" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36546764" sideWeight="0.506447" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41244572" sideWeight="0.5114613" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295129" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944608" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36468884" sideWeight="0.493553" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944608" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36324167" sideWeight="0.493553" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850942" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850942" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944608" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2743553" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2829513" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295129" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295129" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3265306" sideWeight="0.49583334" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41244572" sideWeight="0.48853868" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41244572" sideWeight="0.49498567" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3265306" sideWeight="0.49583334" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -686,7 +797,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -695,8 +809,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/game/logic/commdata/CommDataKey.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/game/framework/asyncdb/orm/BaseDBEntity.java" />
     <entry file="jar:///develop/repository/org/springframework/boot/spring-boot/1.5.9.RELEASE/spring-boot-1.5.9.RELEASE.jar!/org/springframework/boot/SpringApplication.class" />
     <entry file="jar:///develop/repository/org/springframework/data/spring-data-jpa/1.11.9.RELEASE/spring-data-jpa-1.11.9.RELEASE-sources.jar!/org/springframework/data/jpa/repository/JpaRepository.java" />
     <entry file="jar:///develop/repository/org/springframework/data/spring-data-jpa/1.11.9.RELEASE/spring-data-jpa-1.11.9.RELEASE-sources.jar!/org/springframework/data/jpa/repository/support/SimpleJpaRepository.java" />
@@ -743,9 +855,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
           <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -755,7 +864,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -765,9 +873,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="20" column="13" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="20" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -780,21 +885,10 @@
     <entry file="file://$PROJECT_DIR$/logs/2018-02-05/socket.log.2018-02-05" />
     <entry file="file://$PROJECT_DIR$/logs/2018-02-05/profile.log.2018-02-05" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/game/logic/article/service/impl/ArticleServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/game/GameApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1700">
-          <caret line="103" column="50" lean-forward="false" selection-start-line="103" selection-start-column="35" selection-end-line="103" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/game/framework/time/AbstractTriggerTaskExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -802,7 +896,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="4" column="47" lean-forward="false" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -810,15 +903,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="38" column="53" lean-forward="false" selection-start-line="38" selection-start-column="53" selection-end-line="38" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="45" column="20" lean-forward="true" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -826,12 +910,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
-          <folding>
-            <element signature="e#551#552#0" expanded="true" />
-            <element signature="e#597#598#0" expanded="true" />
-            <element signature="e#1933#1934#0" expanded="true" />
-            <element signature="e#1966#1967#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -839,7 +917,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -847,7 +924,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="542">
           <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -855,7 +931,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1427">
           <caret line="157" column="53" lean-forward="false" selection-start-line="157" selection-start-column="53" selection-end-line="157" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -863,7 +938,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="446">
           <caret line="118" column="13" lean-forward="true" selection-start-line="118" selection-start-column="13" selection-end-line="118" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -871,7 +945,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="362">
           <caret line="79" column="9" lean-forward="true" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -879,7 +952,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -887,7 +959,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/game/framework/asyncdb/AsynDBState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="45" column="17" lean-forward="false" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -895,17 +973,182 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///repository/org/springframework/boot/spring-boot-devtools/1.5.10.RELEASE/spring-boot-devtools-1.5.10.RELEASE.jar!/org/springframework/boot/devtools/restart/RestartLauncher.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/game/GameApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="48" column="16" lean-forward="false" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
           <folding>
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/game/framework/asyncdb/AsynDBState.java">
+    <entry file="uml://MAVEN/com.game:GameServer:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.game:GameServer:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">com.game:GameServer:1.0-SNAPSHOT</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.2.12.Final</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.2.12.Final/org.jboss.logging:jboss-logging:jar:3.3.1.Final</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.2.12.Final/org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.2.12.Final/org.javassist:javassist:jar:3.21.0-GA</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.2.12.Final/antlr:antlr:jar:2.7.7</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.2.12.Final/org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.0.1.Final</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.2.12.Final/org.jboss:jandex:jar:2.0.3.Final</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.2.12.Final/com.fasterxml:classmate:jar:1.3.4</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.2.12.Final/org.hibernate.common:hibernate-commons-annotations:jar:5.0.1.Final</node>
+            <node x="" y="">mysql:mysql-connector-java:jar:5.1.45</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.10.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.10.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.10.RELEASE/ch.qos.logback:logback-classic:jar:1.1.11</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.10.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.25</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.10.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.25/org.slf4j:slf4j-api:jar:1.7.25</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.10.RELEASE/org.yaml:snakeyaml:jar:1.17</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.10.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.10.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.27</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.10.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.27/org.apache.tomcat:tomcat-annotations-api:jar:8.5.27</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.10.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.27</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.10.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.27</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.hibernate:hibernate-validator:jar:5.3.6.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.hibernate:hibernate-validator:jar:5.3.6.Final/javax.validation:validation-api:jar:1.1.0.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.10</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.10/com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.10/com.fasterxml.jackson.core:jackson-core:jar:2.8.10</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework:spring-web:jar:4.3.14.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework:spring-web:jar:4.3.14.RELEASE/org.springframework:spring-aop:jar:4.3.14.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework:spring-web:jar:4.3.14.RELEASE/org.springframework:spring-beans:jar:4.3.14.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework:spring-web:jar:4.3.14.RELEASE/org.springframework:spring-context:jar:4.3.14.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework:spring-webmvc:jar:4.3.14.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework:spring-webmvc:jar:4.3.14.RELEASE/org.springframework:spring-expression:jar:4.3.14.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:1.5.10.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter-aop:jar:1.5.10.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter-aop:jar:1.5.10.RELEASE/org.aspectj:aspectjweaver:jar:1.8.13</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter-jdbc:jar:1.5.10.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter-jdbc:jar:1.5.10.RELEASE/org.apache.tomcat:tomcat-jdbc:jar:8.5.27</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter-jdbc:jar:1.5.10.RELEASE/org.apache.tomcat:tomcat-jdbc:jar:8.5.27/org.apache.tomcat:tomcat-juli:jar:8.5.27</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter-jdbc:jar:1.5.10.RELEASE/org.springframework:spring-jdbc:jar:4.3.14.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:1.5.10.RELEASE/org.hibernate:hibernate-core:jar:5.0.12.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:1.5.10.RELEASE/org.hibernate:hibernate-entitymanager:jar:5.0.12.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:1.5.10.RELEASE/org.hibernate:hibernate-entitymanager:jar:5.0.12.Final/org.hibernate:hibernate-core:jar:5.2.12.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:1.5.10.RELEASE/org.hibernate:hibernate-entitymanager:jar:5.0.12.Final/org.javassist:javassist:jar:3.20.0-GA</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:1.5.10.RELEASE/javax.transaction:javax.transaction-api:jar:1.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:1.5.10.RELEASE/org.springframework.data:spring-data-jpa:jar:1.11.10.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:1.5.10.RELEASE/org.springframework.data:spring-data-jpa:jar:1.11.10.RELEASE/org.springframework.data:spring-data-commons:jar:1.13.10.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:1.5.10.RELEASE/org.springframework.data:spring-data-jpa:jar:1.11.10.RELEASE/org.springframework.data:spring-data-commons:jar:1.13.10.RELEASE/org.slf4j:slf4j-api:jar:1.7.21</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:1.5.10.RELEASE/org.springframework.data:spring-data-jpa:jar:1.11.10.RELEASE/org.springframework:spring-orm:jar:4.3.14.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:1.5.10.RELEASE/org.springframework.data:spring-data-jpa:jar:1.11.10.RELEASE/org.springframework:spring-tx:jar:4.3.14.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:1.5.10.RELEASE/org.springframework.data:spring-data-jpa:jar:1.11.10.RELEASE/org.slf4j:slf4j-api:jar:1.7.21</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:1.5.10.RELEASE/org.springframework.data:spring-data-jpa:jar:1.11.10.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.25</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:1.5.10.RELEASE/org.springframework.data:spring-data-jpa:jar:1.11.10.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.25/org.slf4j:slf4j-api:jar:1.7.21</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:1.5.10.RELEASE/org.springframework:spring-aspects:jar:4.3.14.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jetty:jar:1.5.10.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jetty:jar:1.5.10.RELEASE/org.eclipse.jetty:jetty-servlets:jar:9.4.8.v20171121</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jetty:jar:1.5.10.RELEASE/org.eclipse.jetty:jetty-servlets:jar:9.4.8.v20171121/org.eclipse.jetty:jetty-continuation:jar:9.4.8.v20171121</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jetty:jar:1.5.10.RELEASE/org.eclipse.jetty:jetty-servlets:jar:9.4.8.v20171121/org.eclipse.jetty:jetty-http:jar:9.4.8.v20171121</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jetty:jar:1.5.10.RELEASE/org.eclipse.jetty:jetty-servlets:jar:9.4.8.v20171121/org.eclipse.jetty:jetty-util:jar:9.4.8.v20171121</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jetty:jar:1.5.10.RELEASE/org.eclipse.jetty:jetty-servlets:jar:9.4.8.v20171121/org.eclipse.jetty:jetty-io:jar:9.4.8.v20171121</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jetty:jar:1.5.10.RELEASE/org.eclipse.jetty:jetty-webapp:jar:9.4.8.v20171121</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jetty:jar:1.5.10.RELEASE/org.eclipse.jetty:jetty-webapp:jar:9.4.8.v20171121/org.eclipse.jetty:jetty-xml:jar:9.4.8.v20171121</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jetty:jar:1.5.10.RELEASE/org.eclipse.jetty:jetty-webapp:jar:9.4.8.v20171121/org.eclipse.jetty:jetty-servlet:jar:9.4.8.v20171121</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jetty:jar:1.5.10.RELEASE/org.eclipse.jetty:jetty-webapp:jar:9.4.8.v20171121/org.eclipse.jetty:jetty-servlet:jar:9.4.8.v20171121/org.eclipse.jetty:jetty-security:jar:9.4.8.v20171121</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jetty:jar:1.5.10.RELEASE/org.eclipse.jetty:jetty-webapp:jar:9.4.8.v20171121/org.eclipse.jetty:jetty-servlet:jar:9.4.8.v20171121/org.eclipse.jetty:jetty-security:jar:9.4.8.v20171121/org.eclipse.jetty:jetty-server:jar:9.4.8.v20171121</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jetty:jar:1.5.10.RELEASE/org.eclipse.jetty.websocket:websocket-server:jar:9.4.8.v20171121</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jetty:jar:1.5.10.RELEASE/org.eclipse.jetty.websocket:websocket-server:jar:9.4.8.v20171121/org.eclipse.jetty.websocket:websocket-common:jar:9.4.8.v20171121</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jetty:jar:1.5.10.RELEASE/org.eclipse.jetty.websocket:websocket-server:jar:9.4.8.v20171121/org.eclipse.jetty.websocket:websocket-common:jar:9.4.8.v20171121/org.eclipse.jetty.websocket:websocket-api:jar:9.4.8.v20171121</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jetty:jar:1.5.10.RELEASE/org.eclipse.jetty.websocket:websocket-server:jar:9.4.8.v20171121/org.eclipse.jetty.websocket:websocket-client:jar:9.4.8.v20171121</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jetty:jar:1.5.10.RELEASE/org.eclipse.jetty.websocket:websocket-server:jar:9.4.8.v20171121/org.eclipse.jetty.websocket:websocket-client:jar:9.4.8.v20171121/org.eclipse.jetty:jetty-client:jar:9.4.8.v20171121</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jetty:jar:1.5.10.RELEASE/org.eclipse.jetty.websocket:websocket-server:jar:9.4.8.v20171121/org.eclipse.jetty.websocket:websocket-servlet:jar:9.4.8.v20171121</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jetty:jar:1.5.10.RELEASE/org.eclipse.jetty.websocket:websocket-server:jar:9.4.8.v20171121/org.eclipse.jetty.websocket:websocket-servlet:jar:9.4.8.v20171121/javax.servlet:javax.servlet-api:jar:3.1.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jetty:jar:1.5.10.RELEASE/org.eclipse.jetty.websocket:javax-websocket-server-impl:jar:9.4.8.v20171121</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jetty:jar:1.5.10.RELEASE/org.eclipse.jetty.websocket:javax-websocket-server-impl:jar:9.4.8.v20171121/org.eclipse.jetty:jetty-annotations:jar:9.4.8.v20171121</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jetty:jar:1.5.10.RELEASE/org.eclipse.jetty.websocket:javax-websocket-server-impl:jar:9.4.8.v20171121/org.eclipse.jetty:jetty-annotations:jar:9.4.8.v20171121/org.eclipse.jetty:jetty-plus:jar:9.4.8.v20171121</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jetty:jar:1.5.10.RELEASE/org.eclipse.jetty.websocket:javax-websocket-server-impl:jar:9.4.8.v20171121/org.eclipse.jetty:jetty-annotations:jar:9.4.8.v20171121/javax.annotation:javax.annotation-api:jar:1.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jetty:jar:1.5.10.RELEASE/org.eclipse.jetty.websocket:javax-websocket-server-impl:jar:9.4.8.v20171121/org.eclipse.jetty:jetty-annotations:jar:9.4.8.v20171121/org.ow2.asm:asm:jar:6.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jetty:jar:1.5.10.RELEASE/org.eclipse.jetty.websocket:javax-websocket-server-impl:jar:9.4.8.v20171121/org.eclipse.jetty:jetty-annotations:jar:9.4.8.v20171121/org.ow2.asm:asm-commons:jar:6.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jetty:jar:1.5.10.RELEASE/org.eclipse.jetty.websocket:javax-websocket-server-impl:jar:9.4.8.v20171121/org.eclipse.jetty:jetty-annotations:jar:9.4.8.v20171121/org.ow2.asm:asm-commons:jar:6.0/org.ow2.asm:asm-tree:jar:6.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jetty:jar:1.5.10.RELEASE/org.eclipse.jetty.websocket:javax-websocket-server-impl:jar:9.4.8.v20171121/org.eclipse.jetty.websocket:javax-websocket-client-impl:jar:9.4.8.v20171121</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jetty:jar:1.5.10.RELEASE/org.eclipse.jetty.websocket:javax-websocket-server-impl:jar:9.4.8.v20171121/javax.websocket:javax.websocket-api:jar:1.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jetty:jar:1.5.10.RELEASE/org.mortbay.jasper:apache-el:jar:8.0.33</node>
+            <node x="" y="">org.springframework.boot:spring-boot-devtools:jar:1.5.10.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-devtools:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot:jar:1.5.10.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-devtools:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:1.5.10.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.10.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-test:jar:1.5.10.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:1.5.10.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.10.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.10.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.10.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1/net.minidev:accessors-smart:jar:1.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.10.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1/net.minidev:accessors-smart:jar:1.1/org.ow2.asm:asm:jar:5.0.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.10.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/org.slf4j:slf4j-api:jar:1.7.21</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.10.RELEASE/org.assertj:assertj-core:jar:2.6.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.10.RELEASE/org.mockito:mockito-core:jar:1.10.19</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.10.RELEASE/org.mockito:mockito-core:jar:1.10.19/org.objenesis:objenesis:jar:2.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.10.RELEASE/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.10.RELEASE/org.hamcrest:hamcrest-library:jar:1.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.10.RELEASE/org.skyscreamer:jsonassert:jar:1.4.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.10.RELEASE/org.skyscreamer:jsonassert:jar:1.4.0/com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.10.RELEASE/org.springframework:spring-core:jar:4.3.14.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.10.RELEASE/org.springframework:spring-test:jar:4.3.14.RELEASE</node>
+            <node x="" y="">com.alibaba:fastjson:jar:1.2.44</node>
+            <node x="" y="">com.google.guava:guava:jar:21.0</node>
+            <node x="" y="">com.google.protobuf:protobuf-java:jar:3.3.0</node>
+            <node x="" y="">org.slf4j:slf4j-api:jar:1.7.21</node>
+            <node x="" y="">ch.qos.logback:logback-core:jar:1.1.7</node>
+            <node x="" y="">ch.qos.logback:logback-classic:jar:1.1.7</node>
+            <node x="" y="">ch.qos.logback:logback-classic:jar:1.1.7/ch.qos.logback:logback-core:jar:1.1.11</node>
+            <node x="" y="">ch.qos.logback:logback-classic:jar:1.1.7/org.slf4j:slf4j-api:jar:1.7.21</node>
+            <node x="" y="">org.slf4j:log4j-over-slf4j:jar:1.7.25</node>
+            <node x="" y="">org.slf4j:log4j-over-slf4j:jar:1.7.25/org.slf4j:slf4j-api:jar:1.7.21</node>
+            <node x="" y="">io.netty:netty-all:jar:4.1.6.Final</node>
+            <node x="" y="">org.apache.commons:commons-dbcp2:jar:2.1.1</node>
+            <node x="" y="">org.apache.commons:commons-dbcp2:jar:2.1.1/org.apache.commons:commons-pool2:jar:2.4.3</node>
+            <node x="" y="">org.apache.commons:commons-dbcp2:jar:2.1.1/commons-logging:commons-logging:jar:1.2</node>
+            <node x="" y="">junit:junit:jar:4.12</node>
+            <node x="" y="">commons-collections:commons-collections:jar:3.2.1</node>
+            <node x="" y="">org.apache.commons:commons-jexl:jar:2.1.1</node>
+            <node x="" y="">org.apache.commons:commons-jexl:jar:2.1.1/commons-logging:commons-logging:jar:1.1.1</node>
+            <node x="" y="">org.apache.commons:commons-pool2:jar:2.4.2</node>
+            <node x="" y="">dom4j:dom4j:jar:1.6.1</node>
+            <node x="" y="">dom4j:dom4j:jar:1.6.1/xml-apis:xml-apis:jar:1.4.01</node>
+            <node x="" y="">org.quartz-scheduler:quartz:jar:2.3.0</node>
+            <node x="" y="">org.quartz-scheduler:quartz:jar:2.3.0/com.mchange:c3p0:jar:0.9.5.2</node>
+            <node x="" y="">org.quartz-scheduler:quartz:jar:2.3.0/com.mchange:mchange-commons-java:jar:0.2.11</node>
+            <node x="" y="">org.quartz-scheduler:quartz:jar:2.3.0/com.zaxxer:HikariCP-java6:jar:2.3.13</node>
+            <node x="" y="">org.quartz-scheduler:quartz:jar:2.3.0/com.zaxxer:HikariCP-java6:jar:2.3.13/org.slf4j:slf4j-api:jar:1.7.21</node>
+            <node x="" y="">org.quartz-scheduler:quartz:jar:2.3.0/org.slf4j:slf4j-api:jar:1.7.21</node>
+            <node x="" y="">javax.inject:javax.inject:jar:1</node>
+            <node x="" y="">org.javassist:javassist:jar:3.20.0-GA</node>
+            <node x="" y="">com.koloboke:koloboke-api-jdk8:jar:1.0.0</node>
+            <node x="" y="">com.koloboke:koloboke-impl-jdk8:jar:1.0.0</node>
+            <node x="" y="">com.koloboke:koloboke-impl-jdk8:jar:1.0.0/com.koloboke:koloboke-impl-common-jdk8:jar:1.0.0</node>
+            <node x="" y="">javax.persistence:persistence-api:jar:1.0.2</node>
+            <node x="" y="">org.apache.httpcomponents:httpclient:jar:4.5.3</node>
+            <node x="" y="">org.apache.httpcomponents:httpclient:jar:4.5.3/org.apache.httpcomponents:httpcore:jar:4.4.9</node>
+            <node x="" y="">org.apache.httpcomponents:httpclient:jar:4.5.3/commons-codec:commons-codec:jar:1.10</node>
+            <node x="" y="">org.codehaus.groovy:groovy-all:jar:2.4.13</node>
+            <node x="" y="">org.apache.commons:commons-lang3:jar:3.5</node>
+            <node x="" y="">com.alibaba:druid:jar:1.1.7</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.562506367804381" x="1409.8748415142186" y="3293.1046911791345" />
+          <SelectedNodes />
+          <Categories />
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="820">
-          <caret line="45" column="17" lean-forward="true" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+        <state relative-caret-position="260">
+          <caret line="86" column="20" lean-forward="true" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="20" />
           <folding />
         </state>
       </provider>
