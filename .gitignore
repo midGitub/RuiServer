@@ -1,21 +1,11 @@
-# .gitignore_global
-####################################
-######## OS generated files ########
-####################################
+
 .DS_Store
+.class
 .DS_Store?
 .class
 .log*
 *.swp
 ._*
-.Spotlight-V100
-.Trashes
-Icon?
-ehthumbs.db
-Thumbs.db
-####################################
-############# packages #############
-####################################
 *.7z
 *.dmg
 *.gz
