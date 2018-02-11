@@ -1,0 +1,6 @@
+syntax = "proto2";
+package com.game.proto.packet;
+message PacketMessage {
+  required int32 packetId = 1;
+  required bytes content = 2;
+}

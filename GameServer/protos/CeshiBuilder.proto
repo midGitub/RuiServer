@@ -1,0 +1,6 @@
+syntax = "proto3";
+package com.game.proto.ceshi;
+message Ceshi {
+  int32 id = 1;
+  string msg = 2;
+}

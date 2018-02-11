@@ -1,0 +1,9 @@
+syntax = "proto3";
+package com.game.proto.ceshi;
+message ProtoCeshi {
+    string name = 1;
+    int32 pid = 2;
+    int64 lid = 3;
+    bool valid = 4;
+    float score = 5;
+}

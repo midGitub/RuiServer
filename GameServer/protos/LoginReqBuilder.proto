@@ -1,0 +1,7 @@
+syntax = "proto2";
+package com.game.proto.login;
+message LoginReq {
+  required string account = 1;
+  required string token = 2;
+  required int32 type = 3;
+}

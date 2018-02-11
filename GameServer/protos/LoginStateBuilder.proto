@@ -1,0 +1,6 @@
+syntax = "proto2";
+package com.game.proto.login;
+message LoginState {
+  required int32 result = 1;
+  required string data = 2;
+}

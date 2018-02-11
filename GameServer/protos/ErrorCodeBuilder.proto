@@ -1,0 +1,7 @@
+syntax = "proto2";
+package com.game.proto.error;
+message ErrorCode {
+  required int32 commandId = 1;
+  required int32 errorCode = 2;
+  repeated string errorArgs = 3;
+}

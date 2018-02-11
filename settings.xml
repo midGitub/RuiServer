@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0" 
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+	<!-- 指定jar包存放路径-->
+	<localRepository>/repository</localRepository>
+	<pluginGroups></pluginGroups> <!--设置代理服务器 -->
+
+	<!-- 设置私服server-->
+	<servers>
+		<server>
+			<id>releases</id>
+			<username>admin</username>
+			<password>admin123</password>
+		</server>
+		<server>
+			<id>snapshots</id>
+			<username>admin</username>
+			<password>admin123</password>
+		</server>
+	</servers> <!-- 配置私服作为镜像,只允许maven使用私服--> 
+
+<!--
+	<mirrors>
+		<mirror>
+			<id>nexus</id>
+			<mirrorOf>*</mirrorOf>
+			<url>http://mvn-server:8081/nexus/content/groups/public</url>
+		</mirror>
+	</mirrors> 
+-->
+	<profiles>
+		<!--
+		<profile>
+			<id>nexus</id>
+			<repositories>
+				<repository>
+					<id>central</id>
+					<url>http://central</url>
+					<releases><enabled>true</enabled></releases>
+					<snapshots><enabled>true</enabled></snapshots>
+				</repository>
+				<repository>  
+					<id>nexus</id>  
+					<name>local public nexus</name>  
+					<url>http://mvn-server:8081/nexus/content/groups/public</url>  
+					<releases><enabled>true</enabled></releases>  
+					<snapshots><enabled>false</enabled></snapshots>  
+				</repository> 
+				<repository>  
+					<id>nexus</id>  
+					<name>local 3th nexus</name>  
+					<url>http://mvn-server:8081/nexus/content/repositories/thirdparty/</url>  
+					<releases><enabled>true</enabled></releases>  
+					<snapshots><enabled>true</enabled></snapshots>  
+				</repository> 
+				<repository>  
+					<id>nexus-snapshots</id>  
+					<name>local private nexus</name>  
+					<url>http://mvn-server:8081/nexus/content/groups/public-snapshots</url>  
+					<releases><enabled>false</enabled></releases>  
+					<snapshots><enabled>true</enabled></snapshots>  
+				</repository>  
+			</repositories>
+			<pluginRepositories>
+				<pluginRepository>
+					<id>central</id>
+					<url>http://central</url>
+					<releases><enabled>true</enabled></releases>
+					<snapshots><enabled>true</enabled></snapshots>
+				</pluginRepository>
+				<pluginRepository>  
+					<id>nexus</id>  
+					<name>local public nexus</name>  
+					<url>http://mvn-server:8081/nexus/content/groups/public</url>  
+					<releases><enabled>true</enabled></releases>  
+					<snapshots><enabled>false</enabled></snapshots>  
+				</pluginRepository>  
+				<pluginRepository>  
+					<id>nexus-snapshots</id>  
+					<name>local private nexus</name>  
+					<url>http://mvn-server:8081/nexus/content/groups/public-snapshots</url>  
+					<releases><enabled>false</enabled></releases>  
+					<snapshots><enabled>true</enabled></snapshots>  
+				</pluginRepository> 
+				<pluginRepository>  
+					<id>nexus</id>  
+					<name>local 3th nexus</name>  
+					<url>http://mvn-server:8081/nexus/content/repositories/thirdparty/</url>  
+					<releases><enabled>true</enabled></releases>  
+					<snapshots><enabled>true</enabled></snapshots>  
+				</pluginRepository> 
+			</pluginRepositories>
+		</profile>
+-->
+
+
+	</profiles>
+
+<!--
+	<activeProfiles>
+		<activeProfile>nexus</activeProfile>
+	</activeProfiles> -->
+</settings>
