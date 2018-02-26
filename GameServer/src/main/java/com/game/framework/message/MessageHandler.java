@@ -1,6 +1,6 @@
 package com.game.framework.message;
 
-import com.game.framework.threads.business.pool.SimpleThreadFactory;
+import com.game.framework.threads.SimpleThreadFactory;
 import com.game.framework.time.ITriggerTaskExecutor;
 import com.game.framework.time.TriggerFuture;
 import com.game.framework.time.impl.TriggerTaskExecutor;

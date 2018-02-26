@@ -1,7 +1,6 @@
 package com.game.logic.base;
 
 import com.game.framework.network.packet.AbstractPacket;
-import com.game.framework.network.packet.protobuf.ICacheablePacket;
 import com.game.framework.network.packet.protobuf.ResponsePacket;
 import com.game.framework.network.session.IMessageWritable;
 import com.game.framework.network.session.ISessionIdentiable;
@@ -104,12 +103,6 @@ public class GameSession implements IMessageWritable, ISessionIdentiable {
 	}
 
 	public void writeAndFlush(ResponsePacket packet) {
-		if (packet != null) {
-			channel.writeAndFlush(packet);
-		}
-	}
-
-	public void writeAndFlush(ICacheablePacket packet) {
 		if (packet != null) {
 			channel.writeAndFlush(packet);
 		}

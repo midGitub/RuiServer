@@ -22,7 +22,6 @@ public class WebGamePacketDecoder extends MessageToMessageDecoder<BinaryWebSocke
 
     @Override
     protected void decode(ChannelHandlerContext ctx, BinaryWebSocketFrame msg, List<Object> out) throws Exception {
-        System.out.println("WebGamePacketDecoder.decode");
         ProtoPacketMessage packetMessage = ProtobufHandler.frameToProtoPacketMessage(msg);
         if (packetMessage == null) {
             socketLog.warn("WebGamePacketDecoder.decode.packetMessage is null msg="+msg);
@@ -31,7 +30,6 @@ public class WebGamePacketDecoder extends MessageToMessageDecoder<BinaryWebSocke
         AbstractPacket abstractPacket = PacketFactory.getInstance().createPacket(packetMessage);
         if (abstractPacket != null) {
             out.add(abstractPacket);
-            System.out.println("WebGamePacketDecoder.decode.abstractPacket.packetId==="+abstractPacket.getCommandId()+ ",abstractPacket.bytes="+abstractPacket.getProtobufBytes());
         }
     }
 

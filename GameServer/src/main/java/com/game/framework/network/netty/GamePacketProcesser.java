@@ -3,9 +3,6 @@ package com.game.framework.network.netty;
 import com.game.framework.network.packet.AbstractPacket;
 import com.game.framework.network.packet.protobuf.RequestPacket;
 import com.game.framework.network.session.SessionService;
-import com.game.framework.threads.Gatekeepers;
-import com.game.framework.threads.WorldScene;
-import com.game.framework.threads.inter.IRequestToGod;
 import com.game.logic.base.GameSession;
 import io.netty.channel.Channel;
 
@@ -18,18 +15,9 @@ public class GamePacketProcesser {
 
 	private static final int threadNum = Runtime.getRuntime().availableProcessors() * 2; //CPU核数的两倍
 
-	private static final Gatekeepers[] gatekeepers = new Gatekeepers[threadNum];
-
 	private final static short[] validLoginPacket = new short[] {
 			//登陆包
 	};
-
-	public static void init() {
-		for (int i = 0; i < gatekeepers.length; i++) {
-			gatekeepers[i] = new Gatekeepers();
-		}
-		WorldScene.getInstance().executeWorker(gatekeepers);
-	}
 
 	/**
 	 * 处理消息请求
@@ -82,16 +70,6 @@ public class GamePacketProcesser {
 	 * @param session
 	 */
 	public static void processByGateKeeper(final RequestPacket packet, final Channel channel, GameSession session) {
-		gatekeepers[getGateKeepersKey(session)].add(new IRequestToGod() {
-			@Override
-			public boolean execute() {
-				packet.execute(channel);
-				return true;
-			}
-		});
 	}
 
-	private static int getGateKeepersKey(GameSession session) {
-		return session.hashCode() % gatekeepers.length;
-	}
 }

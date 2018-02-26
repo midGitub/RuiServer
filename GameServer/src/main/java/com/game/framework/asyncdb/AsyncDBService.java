@@ -1,7 +1,7 @@
 package com.game.framework.asyncdb;
 
-import com.game.framework.threads.business.pool.SimpleThreadFactory;
-import com.game.framework.threads.inter.IServerClose;
+import com.game.framework.threads.SimpleThreadFactory;
+import com.game.framework.threads.IServerClose;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
@@ -41,16 +41,16 @@ public class AsyncDBService implements ApplicationContextAware, IServerClose {
 
     @Override
     public void setApplicationContext(ApplicationContext context) throws BeansException {
-//        Map<String, Synchronizer> map = context.getBeansOfType(Synchronizer.class);
-//        for (Synchronizer synchronizer : map.values()) {
-//            Class<?>[] interfaces = synchronizer.getClass().getInterfaces();
-//            synchronizerMap.put(interfaces[0], synchronizer);
-//        }
+        Map<String, Synchronizer> map = context.getBeansOfType(Synchronizer.class);
+        for (Synchronizer synchronizer : map.values()) {
+            Class<?>[] interfaces = synchronizer.getClass().getInterfaces();
+            synchronizerMap.put(interfaces[0], synchronizer);
+        }
     }
 
     @PostConstruct
     public void init() {
-//        syncQueuePool = new SyncQueuePool(new SimpleThreadFactory("AsyncDB"), threads, callback, syncStrategy);
+        syncQueuePool = new SyncQueuePool(new SimpleThreadFactory("AsyncDB"), threads, callback, syncStrategy);
     }
 
     public void delete(AsynDBEntity entity) {

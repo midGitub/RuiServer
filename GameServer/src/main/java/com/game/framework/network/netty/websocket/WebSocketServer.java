@@ -48,7 +48,7 @@ public class WebSocketServer {
         b.channel(NioServerSocketChannel.class);
         b.childHandler(WebsocketChatServerInitializer());
 //      b.option(ChannelOption.TCP_NODELAY, true);
-      b.option(ChannelOption.SO_REUSEADDR, true);
+        b.option(ChannelOption.SO_REUSEADDR, true);
         b.option(ChannelOption.SO_BACKLOG, 128);
         b.childOption(ChannelOption.ALLOCATOR, PooledByteBufAllocator.DEFAULT);
         b.childOption(ChannelOption.SO_KEEPALIVE, true);
@@ -74,7 +74,7 @@ public class WebSocketServer {
                 pl.addLast("HTTP_CODEC", new HttpServerCodec());
                 pl.addLast("HTTP_AGGREGATOR", new HttpObjectAggregator(MAX_CONTENT_LENGTH));
                 pl.addLast("SERVER_SOCKET_PROTO", new WebSocketServerProtocolHandler("/"));
-                pl.addLast("HTTP_CHUNKED", new ChunkedWriteHandler());
+//                pl.addLast("HTTP_CHUNKED", new ChunkedWriteHandler());
 //                pl.addLast("SERVER_HANDLER", new WebSocketServerHandler());
                 pl.addLast("WEB_GAME_DECODER",new WebGamePacketDecoder());
                 pl.addLast("WEB_GAME_PACKET_HANDLER",new GamePacketHandler());
@@ -82,9 +82,9 @@ public class WebSocketServer {
         };
     }
 
-//    public static void main(String[] args) {
-//        new WebSocketServer().start();
-//    }
+    public static void main(String[] args) {
+        new WebSocketServer().start();
+    }
 
     public void close() {
         bossGroup.shutdownGracefully();

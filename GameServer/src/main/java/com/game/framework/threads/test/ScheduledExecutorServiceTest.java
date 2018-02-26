@@ -1,6 +1,6 @@
 package com.game.framework.threads.test;
 
-import com.game.framework.threads.business.pool.SimpleThreadFactory;
+import com.game.framework.threads.SimpleThreadFactory;
 
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;

@@ -16,7 +16,7 @@ import org.slf4j.LoggerFactory;
  */
 public class GamePacketHandler extends ChannelInboundHandlerAdapter {
 
-	private static final Logger socketLog		= LoggerFactory.getLogger("socketLog");
+	private static final Logger socketLog = LoggerFactory.getLogger("socketLog");
 
 	@Override
 	public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {

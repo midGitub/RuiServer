@@ -1,10 +1,6 @@
 package com.game.framework.network.session;
 
-import com.game.framework.network.netty.BaseSocketServer;
-import com.game.framework.network.packet.ResponsePacketCacheWriteData;
-import com.game.framework.network.packet.protobuf.ICacheablePacket;
 import com.game.framework.network.packet.protobuf.ResponsePacket;
-import com.game.framework.utils.IObjectConverter;
 import com.game.logic.base.GameSession;
 import io.netty.channel.Channel;
 
@@ -42,28 +38,13 @@ public class SessionService {
 	 */
 	private Map<String, GameSession> account2Sessions = new ConcurrentHashMap<String, GameSession>();
 
-	private IObjectConverter<ResponsePacket, ICacheablePacket> converter;
-
 	private SessionService() {
-	}
-
-	public void setCacheWraper(IObjectConverter<ResponsePacket, ICacheablePacket> converter) {
-		this.converter = converter;
 	}
 
 	public static SessionService getInstance() {
 		return instance;
 	}
 	
-	public void initCachePacketConverter() {
-		setCacheWraper(new IObjectConverter<ResponsePacket, ICacheablePacket>() {
-			@Override
-			public ICacheablePacket convert(ResponsePacket s) {
-				return new ResponsePacketCacheWriteData(s, BaseSocketServer.HEADERS);
-			}
-		});
-	}
-
 	public void register(long id, String account, Channel channel) {
 		GameSession session = channel2Sessions.get(channel);
 		if (session != null) {
@@ -125,40 +106,6 @@ public class SessionService {
 		return channel2Accounts.containsKey(channel);
 	}
 
-	public void writeAndFlushToAll(ResponsePacket packet) {
-		writeAndFlushToMultiWithIdentiable(packet, id2Sessions.values());
-	}
-
-	/**
-	 * 公会聊天,广发给公会所有在线会员
-	 */
-	public void writeAndFlushToSociety(ResponsePacket packet, List<Integer> list) {
-		ConcurrentHashMap<Integer, GameSession> societyid2Sessions = new ConcurrentHashMap<Integer, GameSession>();
-		for (Integer id : list) {
-			GameSession gameSession = id2Sessions.get(id);
-			if (gameSession != null) {
-				societyid2Sessions.put(id, gameSession);
-			}
-		}
-		writeAndFlushToMultiWithIdentiable(packet, societyid2Sessions.values());
-	}
-
-	public void writeAndFlushToMultiWithIdentiable(	ResponsePacket packet,
-													Iterable<? extends ISessionIdentiable> sessions,
-													ISessionIdentiable... excludes) {
-		ICacheablePacket responseCacheWriteDataPacket = converter.convert(packet);
-		for (ISessionIdentiable sessionId : sessions) {
-			if (excludes != null && contains(excludes, sessionId)) {
-				continue;
-			}
-			long sessionId2 = sessionId.getSessionId();
-			GameSession gameSession = id2Sessions.get(sessionId2);
-			if (gameSession != null) {
-				gameSession.writeAndFlush(responseCacheWriteDataPacket);
-			}
-		}
-	}
-
 	private boolean contains(	ISessionIdentiable[] excludes,
 								ISessionIdentiable sessionId) {
 		for (ISessionIdentiable exclude : excludes) {
@@ -191,10 +138,6 @@ public class SessionService {
 		if (gameSession != null) {
 			gameSession.flush();
 		}
-	}
-
-	public void writeAndFlushToAll(ResponsePacket packet, ISessionIdentiable... excludes) {
-		writeAndFlushToMultiWithIdentiable(packet, id2Sessions.values(), excludes);
 	}
 
 	/**

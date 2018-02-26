@@ -14,7 +14,7 @@
         <file>${log.dir}/root.log</file>
         <encoder>
             <charset>UTF-8</charset>
-            <pattern>%level %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] [%logger{50}:%line] - %msg%n%ex </pattern>
+            <pattern>%level %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] [%logger{50}] - %msg%n%ex </pattern>
         </encoder>
     </appender>
 
@@ -30,7 +30,7 @@
         <file>${log.dir}/profile.log</file>
         <encoder>
             <charset>UTF-8</charset>
-            <pattern>%level %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] [%logger{50}:%line] - %msg%n%ex </pattern>
+            <pattern>%level %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] [%logger{50}] - %msg%n%ex </pattern>
         </encoder>
     </appender>
     <appender name="asyncProfile" class="ch.qos.logback.classic.AsyncAppender">
@@ -41,7 +41,7 @@
         <file>${log.dir}/socket.log</file>
         <encoder>
             <charset>UTF-8</charset>
-            <pattern>%level %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] [%logger{50}:%line] - %msg%n%ex </pattern>
+            <pattern>%level %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] [%logger{50}] - %msg%n%ex </pattern>
         </encoder>
     </appender>
 
@@ -64,7 +64,7 @@
         </filter>
         <encoder>
             <charset>UTF-8</charset>
-            <pattern>%level %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] [%logger{50}:%line] - %msg%n%ex </pattern>
+            <pattern>%level %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] [%logger{50}] - %msg%n%ex </pattern>
         </encoder>
     </appender>
 
@@ -76,7 +76,7 @@
         <file>${log.dir}/asyndb.log</file>
         <encoder>
             <charset>UTF-8</charset>
-            <pattern>%level %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] [%logger{50}:%line] - %msg%n%ex </pattern>
+            <pattern>%level %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] [%logger{50}] - %msg%n%ex </pattern>
         </encoder>
     </appender>
 
@@ -88,7 +88,7 @@
         <file>${log.dir}/online.log</file>
         <encoder>
             <charset>UTF-8</charset>
-            <pattern>%level %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] [%logger{50}:%line] - %msg%n%ex </pattern>
+            <pattern>%level %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] [%logger{50}] - %msg%n%ex </pattern>
         </encoder>
     </appender>
 
@@ -100,7 +100,7 @@
         <file>${log.dir}/network.log</file>
         <encoder>
             <charset>UTF-8</charset>
-            <pattern>%level %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] [%logger{50}:%line] - %msg%n%ex </pattern>
+            <pattern>%level %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] [%logger{50}] - %msg%n%ex </pattern>
         </encoder>
     </appender>
 
@@ -112,7 +112,7 @@
         <file>${log.dir}/admin.log</file>
         <encoder>
             <charset>UTF-8</charset>
-            <pattern>%level %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] [%logger{50}:%line] - %msg%n%ex </pattern>
+            <pattern>%level %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] [%logger{50}] - %msg%n%ex </pattern>
         </encoder>
     </appender>
 

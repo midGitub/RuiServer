@@ -2,9 +2,8 @@ package com.game;
 
 import com.game.framework.base.repository.BaseRepositoryFactoryBean;
 import com.game.framework.listener.ListenerManager;
-import com.game.framework.network.netty.BaseSocketServer;
 import com.game.framework.network.netty.websocket.WebSocketServer;
-import com.game.framework.threads.inter.IServerClose;
+import com.game.framework.threads.IServerClose;
 import com.game.framework.base.ServerInit;
 import com.google.common.base.Preconditions;
 import org.slf4j.Logger;
@@ -93,7 +92,6 @@ public class GameApplication {
 
     private static void onStop() {
         onCloseServer();
-        BaseSocketServer.getInstance().stop();
         WebSocketServer.getInstance().close();
         context.close();
         LOGGER.info("server is stop !");
